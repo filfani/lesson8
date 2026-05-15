@@ -12,6 +12,7 @@ header{
     align-items: center;
     margin: 0 auto;
     margin-top: 53px;
+    
 }
 
 .nav-ul{
@@ -240,6 +241,7 @@ font-size: 18px;
      position: relative;
      display: inline-block;
      margin-top: 41px;
+     overflow: hidden;
 }
 
 
@@ -252,7 +254,19 @@ font-size: 18px;
     padding: 15px 30px;
     text-align: center;
     width: max-content;
+    
 }
+
+.section-box3 img{
+    display: block;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.section-box3 img:hover{
+    opacity: 1;
+}
+
 .title-wraper{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto; 
