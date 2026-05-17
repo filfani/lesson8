@@ -33,23 +33,23 @@ color: #37393F;
 font-size: 18px;
 }
 
-.nav-menu{
+.menu{
     margin-left: 40px;
     width: 190px;
     height: 65px;
     background-color: #6B77E5;
-    padding-top: 21px;
-    padding-left: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
-   
-    
-}
-.menu{
+    font-size: 18px;
     color: #FFFFFF;
-     font-size: 18px;
 }
+
 /* section-one */
 
 .section-one{
